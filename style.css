@@ -315,7 +315,7 @@ nav {
   height: 100%;
   top: 0;
   left: 0;
-  background: url(/imgs/planWorld.png) no-repeat right;
+  background: url(/imgs/planWorld.webp) no-repeat right;
   background-size: contain;
   animation: ani 10s infinite linear;
 }
@@ -432,7 +432,7 @@ nav {
   left: -10%;
   border-radius: 50%;
   border: 5px solid white;
-  background: url(./imgs/3d-icon-traveling-vacation.png) no-repeat center;
+  background: url(./imgs/3d-icon-traveling-vacation.webp) no-repeat center;
   background-size: contain;
   background-color: #8c6a2f64;
   rotate: -30deg;
@@ -979,7 +979,7 @@ nav {
   top: -15px;
   left: -20px;
   z-index: 999;
-  background: url(./imgs/helal.png) no-repeat center;
+  background: url(./imgs/helal.webp) no-repeat center;
   background-size: cover;
   animation: Helalhoweha 3s infinite linear alternate;
   -webkit-transform-origin: 50% 0%;
