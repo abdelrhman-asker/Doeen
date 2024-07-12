@@ -19,3 +19,34 @@ function addElementActiv() {
   }
 }
 addElementActiv();
+let NavBarele = document.getElementById("NavBar");
+function InnerH() {
+  let AboutUs = document.getElementById("About-Us");
+  AboutUs.scrollIntoView();
+}
+function OurVis() {
+  let Vision = document.getElementById("Our-Vision");
+  Vision.scrollIntoView();
+}
+function OurSer() {
+  let Services = document.getElementById("Our-Sevices");
+  Services.scrollIntoView();
+}
+function Cont() {
+  let Contact = document.getElementById("contact-us");
+  Contact.scrollIntoView();
+}
+function DuringScrolling() {
+  let MainHeader = document.getElementById("MainHeader");
+}
+function Top() {
+  scrollTo(0, 0);
+}
+const navbar = document.getElementById("NavBar");
+window.onscroll = () => {
+  if (window.scrollY > 150) {
+    navbar.classList.add("nav-active");
+  } else {
+    navbar.classList.remove("nav-active");
+  }
+};

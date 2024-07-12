@@ -18,22 +18,22 @@
     />
     <meta name="description" content="Travelling , Fun , Packages, Vacation , Tourism ">
   </head>
-  <body id="Home">
-    <nav class="MainNavSection">
+  <body onscroll="DuringScrolling()" id="Home" >
+    <nav id="NavBar" class="MainNavSection">
       <div>
-        <a href="#Home">
+        <a onclick="Top()" >
 
           <img src="imgs/logo.webp" alt="Logo"/>
         </a>
       </div>
       <div class="NavLinks">
-        <a href="#contact-us">تواصل معنا</a>
-        <a href="#Our-Sevices">خدماتنا</a>
-        <a href="#Our-Vision">رؤيتنا</a>
-        <a href="#About-Us">من نحن</a>
+        <a onclick="Cont()">تواصل معنا</a>
+        <a onclick="OurSer()">خدماتنا</a>
+        <a  onclick="OurVis()">رؤيتنا</a>
+        <a id="AboutUs"  onclick="InnerH()">من نحن</a>
       </div>
     </nav>
-    <header class="MainHeader">
+    <header id="MainHeader" class="MainHeader">
       <img
         src="imgs/empty-frame-with-plane-globe.webp"
         alt="Traver-Concept"
@@ -247,7 +247,7 @@
 </div>
 </footer>
 
-<a href="#" class="ArrowUpFixed">
+<a onclick="Top()" class="ArrowUpFixed">
   <i class="fa-solid fa-arrow-up fa-2xl"></i>
 </a>
 
