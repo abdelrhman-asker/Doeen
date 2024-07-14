@@ -29,6 +29,8 @@ body {
 }
 .nav-active {
   height: 15vh;
+  border-radius: 150px;
+  margin: 10px;
   background-color: var(--green);
 }
 nav {
@@ -36,8 +38,9 @@ nav {
   justify-content: space-around;
   align-items: center;
   position: fixed;
+  left: 0;
+  right: 0;
   z-index: 99;
-  width: 100vw;
   height: 20vh;
   background-color: transparent;
   transition: 1s;
